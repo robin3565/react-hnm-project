@@ -19,9 +19,9 @@ const Navbar = () => {
             </div>
             <div className='menu-area'>
                 <ul className="menu-list">
-                    {menuList.map((item) => {
-                        return <li>{item}</li>
-                    })}
+                    {menuList.map((item)=> (
+                        <li>{item}</li>
+                    ))}
                 </ul>
                 <div className='search-area'>
                     <FontAwesomeIcon icon={faSearch}/>
